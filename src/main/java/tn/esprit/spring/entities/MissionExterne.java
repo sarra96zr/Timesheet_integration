@@ -13,12 +13,12 @@ public class MissionExterne extends Mission {
 		this.emailFacturation = emailFacturation;
 		this.tauxJournalierMoyen = tauxJournalierMoyen;
 	}
-	public MissionExterne( String name, String description, String emailFacturation, float tauxJournalierMoyen) {
-		super(name, description);
+	//public MissionExterne( String name, String description, String emailFacturation, float tauxJournalierMoyen) {
+		//super(name, description);
 		//this.id= id;
-		this.emailFacturation = emailFacturation;
-		this.tauxJournalierMoyen = tauxJournalierMoyen;
-	}
+		//this.emailFacturation = emailFacturation;
+		//this.tauxJournalierMoyen = tauxJournalierMoyen;
+	//}
 	public String getEmailFacturation() {
 		return emailFacturation;
 	}
