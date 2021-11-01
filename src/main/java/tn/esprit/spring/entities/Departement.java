@@ -27,7 +27,7 @@ public class Departement implements Serializable {
 	
 	private String name;
 	
-	//@JsonManagedReference.
+	//@JsonManagedReference 
 	@JsonIgnore
 	@ManyToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
 	private List<Employe> employes;
@@ -46,6 +46,14 @@ public class Departement implements Serializable {
 		this.name = name;
 	}
 	
+	
+	
+	public Departement(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
 	public int getId() {
 		return id;
 	}
